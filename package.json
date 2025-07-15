@@ -1,0 +1,12 @@
+{
+  "name": "restfulbooker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run postmanRestful-booker.json -e restfulBooker-env.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
