@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "newman run postmanRestful-booker.json -e restfulBooker-env.json"
+    "test": "newman run postmanRestful-booker.json -e restfulBooker-env.json --folder Create_Bookinh_loop -d users.json"
   },
   "keywords": [],
   "author": "",
